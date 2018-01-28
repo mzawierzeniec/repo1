@@ -1,0 +1,24 @@
+cd ..
+cd /etc
+more -5 passwd
+cd ..
+cat tekst1.txt - tekst2.txt >> tekst3.txt
+head -n5 -q *.txt
+cd ..
+cd /etc
+head -3 passwd | tail -1
+head -4 passwd | tail -1
+head -5 passwd | tail -1
+tail -7 passwd | head -1
+tail -6 passwd | head -1
+tail -5 passwd | head -1
+grep passwd | tr '\n' ' '
+cd..
+cd lab4
+tr ' ' '\n' < plik.txt
+find . -type f
+cd..
+cd /etc
+head -3 passwd | wc -m
+
+
